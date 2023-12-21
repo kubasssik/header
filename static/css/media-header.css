@@ -1,0 +1,94 @@
+@media (min-width: 360px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    :root {
+        --p-med: 1rem;
+        --p-min: .7rem;
+    }
+}
+
+@media (min-width: 460px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 660px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    :root {
+        --p-med: 1.2rem;
+        --p-min: 1rem;
+    }
+}
+
+@media (min-width: 960px) {
+    .localization {
+        grid-template-columns: 5% 5% 90%;
+    }
+    .header {
+        padding: 0 2rem;
+    }
+    /*-- бургер кнопка --*/
+    .header-burger{
+        display: none;
+    }
+    /*-- Класс для изменения header --*/
+    .header-margin {
+        margin: 1rem;
+    }
+
+    .ul-top-floor {
+        grid-template-columns: 20% 40% 20% 20% ;
+    }
+
+    /*-- Логотип --*/
+    .logo {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .logo-img {
+        width: 40%;
+    }
+
+    /*-- Девиз motto --*/
+  
+    .motto {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    /*--Адрес address--*/
+    .address {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    /*--Режим работы jobs--*/
+    .jobs {
+        grid-column: 3/4;
+        grid-row: 1/3;
+        text-align: center;
+    }
+
+   
+    /*--Мессенджер messenger--*/
+    .messenger {
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+
+    .messenger img {
+        width: 50%;
+        background-position: center;
+    }
+
+
+}
+
+

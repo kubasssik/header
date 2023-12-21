@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor easy connection</title>
+    <link rel="stylesheet" href="static/css/burger.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/media-header.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Верхний этаж  header-top-floor -->
+        <header class="header-top-floor">
+            <!--Можно включить/Выключит блок-->
+            <!--Можно отключить локализацию -->
+
+            <!-- Тут добовляем d_n - скрывем d_g, чтоб скрыть блок  -->
+            <section class="localization">
+                <button type="button"><img src="static/img/png/en.png" alt="ru"></button>
+                <!--Можно выбрать день/ночь-->
+                <button type="button"><img src="static/img/png/night.png" alt="день"></button>
+                <!--Геоданные
+                <label class="localization-label">
+                    <button type="button" id="find-me"><img src="static/img/png/geo.png" alt="день"></button>
+                    <p class="geo" id="status"></p>
+                    <a class="geo" id="map-link" target="_blank"></a>
+
+                </label>-->
+                <!--constructor easy connection CEC-->
+                <button type="button"><a style="color: rgb(185, 185, 185);" href="#">CEC v. 0.12.1</a> </button>
+            </section>
+            <!-- img-skin, если есть header включен фон-->
+            <section class="header img-skin">
+                <!-- Если на header-top-img убрать 'd_n' появляется картинка  фона -->
+                <img class="header-top-img img-skin " src="static/img/png/backgroundHeader.png" alt="">
+                <nav class="nav-top-floor">
+                    <ul class="ul-top-floor d_g">
+                        <!-- Меняее картинку на надись -->
+                        <!-- Блок LOGO  обязательный -->
+                        <li class="li-top-floor logo">
+                            <span class="d_n"><a href="#">
+                                    <h2>OOO "COMPANY"</h2>
+                                </a></span>
+                            <span><img class="logo-img" src="static/img/png/logo1.png" alt="Компания"></span>
+                        </li>
+
+                        <!-- Можно включить/Выключит блок -->
+                        <!-- Девиз motto -->
+                        <!-- Тут d_n, чтоб скрыть блок -->
+                        <li class="li-top-floor motto">
+                            <span title="OOO COMPANY"><a href="#">
+                                    <h2>OOO "COMPANY"</h2>
+                                </a></span>
+
+                            <p class="motto-p" title="Расшифровка или лозунг или лозунг и т.д">Расшифровка или лозунг
+                                или лозунг и т.д
+                            </p>
+                        </li>
+
+                        <!-- Можно включить/Выключит блок -->
+                        <!-- Адрес address -->
+                        <!-- Тут добовляем d_n - скрывем d_g, чтоб скрыть блок  -->
+                        <li class="li-top-floor address d_g">
+                            <p>г. Симферополь</p>
+                            <p>улица Менделеева 13</p>
+                            <p>офис №5, кабинет №555</p>
+                        </li>
+
+                        <!-- Можно включить/Выключит блок -->
+                        <!-- Тут добовляем d_n - скрывем d_g, чтоб скрыть блок  -->
+                        <li class="li-top-floor jobs d_g">
+                            <!-- VМожно оключить режим работы -->
+                            <ul>
+                                <li>с 00:00 до 00:00</li>
+                                <li><a href="">
+                                        <h2>8 800 000-00-00</h2>
+                                    </a></li>
+                                <li>Без выходных</li>
+                            </ul>
+
+                        </li>
+
+                        <!-- Можно включить/Выключит блок -->
+                        <!-- Мессенджер messenger -->
+                        <!-- Тут d_n, чтоб скрыть блок -->
+                        <li class="li-top-floor messenger">
+                            <ul>
+                                <!--Можно выбрать или все-->
+                                <li title="whatsapp"><a href=""><img src="static/img/png/whatsapp_logo.png"
+                                            alt="whatsapp"></a></li>
+                                <li title="viber"><a href=""><img src="static/img/png/viber_logo.png" alt="viber"></a>
+                                </li>
+                                <li title="telegram"><a href=""><img src="static/img/png/telegram_logo.png"
+                                            alt="telegram"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <!-- бургер кнопка  -->
+        <div class="header-burger burger-menu">
+            <div class="burger">
+                <span class="b0 b"></span><span class="b1 b"></span><span class="b2 b"></span>
+            </div>
+        </div>
+        <header class="header-bottom-burger burger-menu">
+            <!--Сюда подключаются навигаторы -->
+            <nav class="nav-burger ">
+                <ul class="ul-burger">
+                    <li><a class="li-burger" href="">Главная</a></li>
+                    <li><a class="li-burger" href="">Кнопка слово</a></li>
+                    <li><a class="li-burger" href="">Кнопка слово</a></li>
+                    <li><a class="li-burger" href="">Кнопка слово</a></li>
+                    <li><a class="li-burger" href="">Кнопка слово</a></li>
+                    <li><a class="li-burger" href="">Кнопка слово</a></li>
+                    <li><a class="li-burger" href="">Кнопка слово</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+
+</body>
+
+
+<script src="static/js/header.js" type="module" defer></script>
+
+</html>
